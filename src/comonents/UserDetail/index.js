@@ -2,10 +2,10 @@ import "./index.css";
 
 let UserDetail = (props) => {
   let { user } = props;
-  let { imageurl, name, role } = user;
+  let { imageurl, name, role, key } = user;
   return (
     <li className="cardcointainer">
-      <img src={imageurl} className="image" />
+      <img src={imageurl} className="image" alt="userpicture" />
       <div className="text">
         <h3>{name}</h3>
         <p>{role}</p>
