@@ -1,5 +1,6 @@
 import "./App.css";
 import UserDetail from "./comonents/UserDetail";
+import Counter from "./comonents/Counter";
 
 let userarray = [
   {
@@ -30,13 +31,16 @@ let userarray = [
 
 function App() {
   return (
-    <div className="usedetail">
-      <h1>User List</h1>
-      <ul>
-        {userarray.map((call) => (
-          <UserDetail user={call} key={call.no} />
-        ))}
-      </ul>
+    <div>
+      <div className="usedetail">
+        <h1>User List</h1>
+        <ul>
+          {userarray.map((call) => (
+            <UserDetail user={call} key={call.no} />
+          ))}
+        </ul>
+      </div>
+      <Counter />
     </div>
   );
 }
