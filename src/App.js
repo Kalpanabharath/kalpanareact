@@ -2,6 +2,7 @@ import "./App.css";
 import UserDetail from "./comonents/UserDetail";
 import Counter from "./comonents/Counter";
 import Wellcome from "./comonents/Wellcome";
+import Defaultcomponent from "./comonents/Defaultcomponent";
 
 let userarray = [
   {
@@ -43,6 +44,7 @@ function App() {
       </div>
       <Counter />
       <Wellcome />
+      <Defaultcomponent />
     </div>
   );
 }
