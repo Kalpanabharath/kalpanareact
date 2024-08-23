@@ -10,7 +10,8 @@ class Wellcome extends Component {
     return (
       <div className="wellcomecontainer">
         <h3>Hello Kalpana</h3>
-        {isLogedIn ? <button>LogOut</button> : <button>LogIn</button>}
+        {isLogedIn && <button>Logout</button>}
+        {!isLogedIn && <button>LogIn</button>}
       </div>
     );
   }
