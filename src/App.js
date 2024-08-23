@@ -1,6 +1,7 @@
 import "./App.css";
 import UserDetail from "./comonents/UserDetail";
 import Counter from "./comonents/Counter";
+import Wellcome from "./comonents/Wellcome";
 
 let userarray = [
   {
@@ -41,6 +42,7 @@ function App() {
         </ul>
       </div>
       <Counter />
+      <Wellcome />
     </div>
   );
 }

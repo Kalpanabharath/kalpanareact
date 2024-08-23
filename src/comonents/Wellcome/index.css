@@ -1,0 +1,11 @@
+.wellcomecontainer {
+  margin: 20vh 0px;
+  background-color: darkcyan;
+  padding: 10px;
+  box-shadow: 3px 2px 5px 0px black;
+  width: 50%;
+  margin: 20vh auto;
+}
+.wellcomecontainer > * {
+  margin: 10px;
+}
