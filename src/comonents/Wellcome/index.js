@@ -6,17 +6,11 @@ class Wellcome extends Component {
 
   render() {
     let { isLogedIn } = this.state;
-    let authbuttion;
-    if (isLogedIn === true) {
-      authbuttion = <button>Logout</button>;
-    } else {
-      authbuttion = <button>LogIn</button>;
-    }
 
     return (
       <div className="wellcomecontainer">
         <h3>Hello Kalpana</h3>
-        {authbuttion}
+        {isLogedIn ? <button>LogOut</button> : <button>LogIn</button>}
       </div>
     );
   }
