@@ -28,3 +28,21 @@
 ul {
   align-items: center;
 }
+li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px;
+}
+.delete-buttion {
+  width: 20px;
+  height: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 10px;
+}
+.deleteicon {
+  width: 20px;
+  height: 20px;
+}

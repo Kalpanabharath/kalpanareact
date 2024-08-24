@@ -19,7 +19,7 @@
   padding: 10px;
 }
 
-button {
+.counterbtn > button {
   padding: 5px;
   border-radius: 5px;
   border: none;

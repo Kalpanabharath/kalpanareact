@@ -3,6 +3,7 @@ import UserDetail from "./comonents/UserDetail";
 import Counter from "./comonents/Counter";
 import Wellcome from "./comonents/Wellcome";
 import Defaultcomponent from "./comonents/Defaultcomponent";
+import { Component } from "react";
 
 let userarray = [
   {
@@ -31,22 +32,50 @@ let userarray = [
   },
 ];
 
-function App() {
-  return (
-    <div>
-      <div className="usedetail">
-        <h1>User List</h1>
-        <ul>
-          {userarray.map((call) => (
-            <UserDetail user={call} key={call.no} />
-          ))}
-        </ul>
+class App extends Component {
+  state = {
+    searchInput: "",
+    userDetailsList: userarray,
+  };
+  onChangeSearchInput = (event) => {
+    this.setState({ searchInput: event.target.value });
+  };
+  deleteUser = (userId) => {
+    let { userDetailsList } = this.state;
+    let filterUsersData = userDetailsList.filter((each) => each.no !== userId);
+    console.log(filterUsersData);
+    this.setState({ userDetailsList: filterUsersData });
+  };
+  render() {
+    let { searchInput, userDetailsList } = this.state;
+    let searchResults = userDetailsList.filter((eachitem) =>
+      eachitem.name.includes(searchInput)
+    );
+    return (
+      <div>
+        <div className="usedetail">
+          <h1>User List</h1>
+          <input
+            type="search"
+            value={searchInput}
+            onChange={this.onChangeSearchInput}
+          />
+          <ul>
+            {searchResults.map((call) => (
+              <UserDetail
+                user={call}
+                userId={call.no}
+                deleteUser={this.deleteUser}
+              />
+            ))}
+          </ul>
+        </div>
+        <Counter />
+        <Wellcome />
+        <Defaultcomponent />
       </div>
-      <Counter />
-      <Wellcome />
-      <Defaultcomponent />
-    </div>
-  );
+    );
+  }
 }
 
 export default App;
