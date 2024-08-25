@@ -3,6 +3,7 @@ import UserDetail from "./comonents/UserDetail";
 import Counter from "./comonents/Counter";
 import Wellcome from "./comonents/Wellcome";
 import Defaultcomponent from "./comonents/Defaultcomponent";
+import Propsfuction from "./comonents/Propsfunction";
 import { Component } from "react";
 
 let userarray = [
@@ -73,6 +74,7 @@ class App extends Component {
         <Counter />
         <Wellcome />
         <Defaultcomponent />
+        <Propsfuction />
       </div>
     );
   }
