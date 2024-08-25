@@ -1,0 +1,20 @@
+.usedetail {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+input {
+  width: 50%;
+  height: 40px;
+  padding: 5px;
+  font-size: medium;
+  margin: 10px auto;
+}
+.usedetail > h1 {
+  margin: 10px;
+}
+ul {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}

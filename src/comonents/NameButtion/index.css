@@ -1,0 +1,12 @@
+.namebuttionclass {
+  padding: 10px;
+  margin: 10px;
+  width: 90px;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  background-color: lightgrey;
+}
+button.namebuttionclass:active {
+  background-color: aliceblue;
+}
