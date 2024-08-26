@@ -6,6 +6,7 @@ import Defaultcomponent from "./comonents/Defaultcomponent";
 import Propsfuction from "./comonents/Propsfunction";
 import { Component } from "react";
 import MyButtion from "./comonents/MyButtion";
+import Randomnumber from "./comonents/Randomnumber";
 
 class App extends Component {
   render() {
@@ -17,6 +18,7 @@ class App extends Component {
         <Defaultcomponent />
         <Propsfuction />
         <MyButtion />
+        <Randomnumber />
       </div>
     );
   }
