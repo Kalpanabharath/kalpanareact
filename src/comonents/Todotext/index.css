@@ -1,0 +1,19 @@
+.todotext {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 50%;
+  border: 10px;
+  box-shadow: 3px 3px 5px 0.5px black;
+  margin: 10px;
+  height: 50px;
+}
+.todotext p {
+  width: 50%;
+}
+.todotext button {
+  padding: 5px 10px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+}
