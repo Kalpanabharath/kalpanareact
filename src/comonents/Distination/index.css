@@ -1,0 +1,55 @@
+.DistinationContainer {
+  width: 100%;
+  box-sizing: border-box;
+  height: fit-content;
+  padding: 5%;
+  background-color: rgb(209, 233, 246);
+  margin-bottom: 10vh;
+  border-radius: 5px;
+}
+
+.DistinationContainer h1 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-bottom: 10px;
+}
+
+.DistinationContainer input {
+  width: 30vw;
+  outline: none;
+  font-size: medium;
+  letter-spacing: 2px;
+  border: none;
+  border-radius: 10px;
+  background-color: #eecad5;
+  margin-bottom: 10vh;
+  padding-left: 10px;
+}
+
+.imagecontainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.imagewithtext {
+  width: 30%;
+  height: 30vh;
+  background-color: rgb(241, 211, 206);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 1%;
+  border-radius: 10px;
+  box-shadow: 2px 2px 4px 1px black;
+}
+.imagewithtext img {
+  width: 80%;
+  height: 80%;
+}
+.imagewithtext p {
+  font-size: 1vw;
+  font-weight: bold;
+  margin-top: 5px;
+  font-family: monospace;
+}
