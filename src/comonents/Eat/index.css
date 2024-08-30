@@ -1,0 +1,7 @@
+.fruitcontainer {
+  display: flex;
+  width: 100%;
+  height: fit-content;
+  justify-content: space-between;
+  padding: 5vw;
+}
