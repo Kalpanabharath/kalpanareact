@@ -11,6 +11,7 @@ import Distination from "./comonents/Distination";
 import Todo from "./comonents/Todo";
 import Google from "./comonents/Google";
 import Eat from "./comonents/Eat";
+import Filterproject from "./comonents/Filterproject";
 
 class App extends Component {
   render() {
@@ -27,6 +28,7 @@ class App extends Component {
         <Todo />
         <Google />
         <Eat />
+        <Filterproject />
       </div>
     );
   }
