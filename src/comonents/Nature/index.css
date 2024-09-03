@@ -1,0 +1,31 @@
+.naturecontainer {
+  margin: 10vh 0px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.mainimage {
+  width: 55%;
+  height: 60vh;
+  background-position: center;
+  background-size: cover;
+  margin: 10px auto;
+  border-radius: 10px;
+  justify-content: space-between;
+}
+.choiceimage {
+  width: 6vw;
+  height: 15vh;
+  border-radius: 10px;
+  min-width: 100px;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 1px;
+}
+.imagecontainer > .active {
+  filter: brightness(1.3) contrast(1.2) saturate(1.3); /* Sharpen active image */
+}
+.imagecontainer > .inactive {
+  filter: hue-rotate(0deg) saturate(10) brightness(0.5);
+}
