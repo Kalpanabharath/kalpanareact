@@ -1,0 +1,26 @@
+.Filterheader {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 30px;
+  margin: 3%;
+  font-family: monospace;
+}
+.Filterpara {
+  width: 50%;
+  text-align: center;
+  margin: 10px auto;
+  font-size: 16px;
+  line-height: 20px;
+}
+.tabconteiner {
+  width: 50vw;
+  display: flex;
+  justify-content: space-around;
+  margin: 50px auto;
+}
+.resultcontainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  height: fit-content;
+}

@@ -1,0 +1,11 @@
+.tabletbuttion {
+  display: flex;
+  padding: 10px;
+  border: none;
+  outline: none;
+  background: none;
+  font-size: medium;
+}
+.makeborder {
+  border-bottom: 2px solid blue;
+}

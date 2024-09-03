@@ -1,7 +1,6 @@
 .navbar {
   width: 100%;
   height: 10vh;
-  background-color: red;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -9,5 +8,20 @@
 .logo {
   font-size: 40px;
   padding: 10px;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: fantasy;
+  letter-spacing: 12px;
+}
+.logo::first-letter {
+  color: blueviolet;
+}
+.medialogo {
+  width: 30%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-right: 10%;
+}
+.medialogo > img {
+  width: 40px;
+  height: 40px;
 }
