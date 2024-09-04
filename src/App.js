@@ -15,6 +15,7 @@ import Filterproject from "./comonents/Filterproject";
 import Nature from "./comonents/Nature";
 import Appstore from "./comonents/Appstore";
 import Cointoss from "./comonents/Cointoss";
+import Review from "./comonents/Review";
 
 class App extends Component {
   render() {
@@ -35,6 +36,7 @@ class App extends Component {
         <Nature />
         <Appstore />
         <Cointoss />
+        <Review />
       </div>
     );
   }
