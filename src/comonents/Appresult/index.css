@@ -1,0 +1,17 @@
+.singleresult {
+  width: 200px;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 20px;
+  box-shadow: 1px 1px 3px 1px;
+  border-radius: 10px;
+}
+.singleresult > img {
+  width: 100%;
+  height: 80%;
+  background-size: cover;
+  background-position: center;
+}

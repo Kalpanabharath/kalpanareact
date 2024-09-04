@@ -1,0 +1,40 @@
+.inputcontainer {
+  width: 25%;
+  height: 40px;
+  border: 0.5px solid rgb(141, 136, 136);
+  margin: 20px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 300px;
+  border-radius: 5px;
+  padding: 5px;
+}
+.inputcontainer > input {
+  height: 100%;
+  width: 90%;
+  border: 0;
+  outline: 0;
+}
+.inputcontainer > img {
+  width: 5vw;
+  height: 5vh;
+  max-width: 30px;
+  max-height: 30px;
+}
+.apptabcontainer {
+  display: flex;
+  width: 30%;
+  justify-content: space-between;
+  align-items: center;
+  margin: 5vh auto;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.appresultcontainer {
+  width: 95w;
+  height: fit-content;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
