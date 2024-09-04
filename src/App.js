@@ -14,6 +14,7 @@ import Eat from "./comonents/Eat";
 import Filterproject from "./comonents/Filterproject";
 import Nature from "./comonents/Nature";
 import Appstore from "./comonents/Appstore";
+import Cointoss from "./comonents/Cointoss";
 
 class App extends Component {
   render() {
@@ -33,6 +34,7 @@ class App extends Component {
         <Filterproject />
         <Nature />
         <Appstore />
+        <Cointoss />
       </div>
     );
   }
