@@ -16,6 +16,7 @@ import Nature from "./comonents/Nature";
 import Appstore from "./comonents/Appstore";
 import Cointoss from "./comonents/Cointoss";
 import Review from "./comonents/Review";
+import Contactform from "./comonents/Contactform";
 
 class App extends Component {
   render() {
@@ -37,6 +38,7 @@ class App extends Component {
         <Appstore />
         <Cointoss />
         <Review />
+        <Contactform />
       </div>
     );
   }
