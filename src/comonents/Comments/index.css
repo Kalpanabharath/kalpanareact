@@ -1,0 +1,81 @@
+.commentpage {
+  width: 98%;
+  margin: 5vh auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.inputandimage {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+.textside {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 30%;
+  margin-left: 10%;
+}
+.textside > h1 {
+  margin-bottom: 10%;
+}
+.textside > p {
+  font-size: 16px;
+}
+.textside > input[type="text"] {
+  width: 100%;
+  border: 1px sold rgb(224, 222, 224);
+  outline: none;
+  background-color: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+}
+.textside > input :focus {
+  outline: none;
+}
+.textside > textarea {
+  width: 100%; /* Make the textarea fill the width of the container */
+  box-sizing: border-box; /* Ensures padding and borders are included in the width */
+  padding: 10px;
+  border: 1px sold rgb(224, 222, 224);
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+.textside > button {
+  padding: 5px 10px;
+  background-color: rgb(37, 131, 168);
+  color: aliceblue;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+}
+.harizontal {
+  width: 80%;
+  height: fit-content;
+}
+.horizontal-line {
+  border-top: 1px solid rgb(224, 222, 224); /* Custom style for the line */
+  margin-top: 20px;
+  width: 100%;
+}
+.Commentcount {
+  display: flex;
+  align-self: flex-start;
+  width: 80%;
+  margin: 10px auto;
+  gap: 10px;
+}
+.Commentcount > p:nth-child(1) {
+  background-color: rgb(37, 131, 168);
+  padding: 3px 5px;
+  color: aliceblue;
+  border-radius: 2px;
+  font-size: small;
+}
+.usercommentscontainer {
+  width: 80%;
+  margin: 10px auto;
+  display: flex;
+  flex-direction: column;
+}

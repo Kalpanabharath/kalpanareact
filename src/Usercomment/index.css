@@ -1,0 +1,43 @@
+.singlecomment {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-bottom: 10px;
+}
+.commentdetail {
+  display: flex;
+  gap: 15px;
+}
+.nameimage {
+  color: aliceblue;
+  background-color: blue;
+  font-size: 16px;
+  border-radius: 50%;
+  padding: 5px 10px;
+}
+.username {
+  font-weight: 500;
+}
+.timecalculate {
+  color: #4b494b;
+}
+.commentpara {
+  align-self: self-start;
+  margin-left: 45px;
+  margin: 5px 0px;
+}
+.Likeanddelete {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 5px;
+}
+.likediv {
+  display: flex;
+  gap: 10px;
+}
+.singlecomment > .harizontalcommentline {
+  width: 100%;
+}
+.likeblue {
+  color: rgb(14, 163, 232);
+}
