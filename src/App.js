@@ -20,7 +20,7 @@ import Contactform from "./comonents/Contactform";
 import Comments from "./comonents/Comments";
 import Userreview from "./comonents/Userreview";
 import Appoinment from "./comonents/Appoinment";
-
+import Moneymanagement from "./comonents/Moneymanagement";
 class App extends Component {
   render() {
     return (
@@ -45,6 +45,7 @@ class App extends Component {
         <Comments />
         <Userreview />
         <Appoinment />
+        <Moneymanagement />
       </div>
     );
   }
