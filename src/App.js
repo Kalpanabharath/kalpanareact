@@ -18,6 +18,8 @@ import Cointoss from "./comonents/Cointoss";
 import Review from "./comonents/Review";
 import Contactform from "./comonents/Contactform";
 import Comments from "./comonents/Comments";
+import Userreview from "./comonents/Userreview";
+import Appoinment from "./comonents/Appoinment";
 
 class App extends Component {
   render() {
@@ -41,6 +43,8 @@ class App extends Component {
         <Review />
         <Contactform />
         <Comments />
+        <Userreview />
+        <Appoinment />
       </div>
     );
   }

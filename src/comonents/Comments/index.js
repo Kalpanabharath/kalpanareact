@@ -1,6 +1,6 @@
 import { Component } from "react";
 import { v4 as uuidv4 } from "uuid";
-import Usercomment from "../../Usercomment";
+import Usercomment from "../Usercomment";
 import "./index.css";
 class Comments extends Component {
   state = { userarray: [], username: "", usercomment: "" };

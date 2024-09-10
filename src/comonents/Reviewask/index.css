@@ -1,0 +1,17 @@
+.userrevierpage {
+  margin: 10vh auto;
+
+  padding: 20px 10px;
+  width: fit-content;
+  height: fit-content;
+}
+
+.Emojicontainer > img {
+  width: 10vw;
+  height: 10vh;
+}
+.Emojicontainer {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+}

@@ -1,0 +1,59 @@
+.Appoinmentinputimage {
+  display: flex;
+  width: 95%;
+  justify-content: space-between;
+  align-items: center;
+}
+.appointmenttaxt {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: left;
+}
+.appointmenttaxt > h1 {
+  margin-bottom: 20px;
+}
+.appointmenttaxt input {
+  width: 400px;
+}
+.appointmenttaxt form button {
+  padding: 5px 5px;
+  border-radius: 5px;
+  background-color: blue;
+  color: aliceblue;
+  margin-bottom: 10px;
+  width: 70px;
+  border: none;
+  outline: none;
+}
+
+.harizondalline {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin: 10px 0px;
+}
+.harizontalline {
+  border-bottom: 1px solid #b5b7c4;
+  width: 80%;
+}
+.appointmentstared {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  margin-left: 10%;
+}
+.appointmentstared p {
+  border: 1px solid black;
+  border-radius: 10px;
+  height: fit-content;
+  padding: 5px 10px;
+  text-align: center;
+}
+.appointmentcontainer {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 20px 10%;
+}
