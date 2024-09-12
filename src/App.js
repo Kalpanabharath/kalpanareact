@@ -21,6 +21,7 @@ import Comments from "./comonents/Comments";
 import Userreview from "./comonents/Userreview";
 import Appoinment from "./comonents/Appoinment";
 import Moneymanagement from "./comonents/Moneymanagement";
+import Clock from "./comonents/Clock";
 class App extends Component {
   render() {
     return (
@@ -46,6 +47,7 @@ class App extends Component {
         <Userreview />
         <Appoinment />
         <Moneymanagement />
+        <Clock />
       </div>
     );
   }

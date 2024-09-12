@@ -1,0 +1,8 @@
+.clocktime {
+  width: fit-content;
+  background-color: black;
+  color: wheat;
+  padding: 10px 20px;
+  margin: 5% 0px;
+  border-radius: 20px;
+}
