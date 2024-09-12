@@ -45,6 +45,9 @@ select {
   display: flex;
   flex-direction: column;
   gap: 10px;
+  border: 1px solid black;
+  padding: 10px 20px;
+  border-radius: 20px;
 }
 .lineone {
   display: flex;
@@ -54,4 +57,10 @@ select {
   border: 1px solid black;
   border-radius: 4px;
   padding: 10px 30px;
+}
+.dynamicubdate {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  height: fit-content;
 }

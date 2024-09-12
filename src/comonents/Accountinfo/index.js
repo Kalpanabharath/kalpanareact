@@ -9,7 +9,7 @@ let Accountinfo = (props) => {
       </div>
       <div className="textdetails">
         <p>{type}</p>
-        <p>`RS ${amount}`</p>
+        <p>RS {amount}</p>
       </div>
     </div>
   );
