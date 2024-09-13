@@ -1,0 +1,83 @@
+.digitaltimer {
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient(to right, #defafe 20%, #cffcf1 30%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+.timedisplay {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 70vh;
+  background-color: blue;
+}
+.displaytime {
+  background-color: aqua;
+  width: 50%;
+
+  background-image: url("https://assets.ccbp.in/frontend/react-js/digital-timer-elapsed-bg.png");
+  background-size: 80% 80%; /* Ensures the image covers the entire container */
+  background-position: center; /* Centers the image */
+  background-repeat: no-repeat;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.bagroundimage {
+  background-color: #cffcf1;
+  padding: 30px 30px;
+  border-radius: 50%;
+}
+.setdetail {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 30px 0px;
+  background-color: crimson;
+  padding: 10px 0px;
+}
+.pauseandreset {
+  display: flex;
+  gap: 20px;
+}
+.pauseandreset > * {
+  display: flex;
+  gap: 5px;
+}
+.pauseandreset img {
+  width: 40px;
+  height: 30px;
+}
+.timelimit {
+  display: flex;
+  gap: 20px;
+}
+.timelimit > img {
+  width: 30px;
+  height: 30px;
+}
+
+@media screen and (max-width: 576px) {
+  .timedisplay {
+    flex-direction: column; /* Stacks elements vertically on smaller screens */
+    justify-content: center;
+  }
+  .timedisplay > * {
+    width: 100%;
+  }
+  .displaytime {
+    background-size: 30% 100%;
+  }
+  .bagroundimage {
+    padding: 10px 10px;
+  }
+}
