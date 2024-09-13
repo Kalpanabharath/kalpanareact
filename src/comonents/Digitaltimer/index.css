@@ -12,10 +12,8 @@
   justify-content: space-between;
   width: 100%;
   height: 70vh;
-  background-color: blue;
 }
 .displaytime {
-  background-color: aqua;
   width: 50%;
 
   background-image: url("https://assets.ccbp.in/frontend/react-js/digital-timer-elapsed-bg.png");
@@ -42,7 +40,7 @@
   align-items: center;
   justify-content: center;
   gap: 30px 0px;
-  background-color: crimson;
+
   padding: 10px 0px;
 }
 .pauseandreset {
