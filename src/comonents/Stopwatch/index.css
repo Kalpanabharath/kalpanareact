@@ -1,0 +1,43 @@
+.Stopwatchpage {
+  width: 98vw;
+  height: 100vh;
+  background: url("https://assets.ccbp.in/frontend/react-js/stopwatch-lg-bg.png");
+  background-position: center;
+  background-size: cover;
+}
+.Stopwatchpage > h3 {
+  background-color: blue;
+  text-align: 20%;
+  margin-top: 30px;
+  display: inline-block;
+  margin-right: 50%;
+  margin-top: 5%;
+}
+.coundowncontainer {
+  width: 20%;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 5px 5px 10px 1px #000000;
+  margin: 30px 14%;
+  border-radius: 20px;
+}
+.coundowncontainer > * {
+  display: flex;
+  gap: 10px;
+  width: 100%;
+  justify-content: center;
+  padding: 10px;
+}
+.stopwatchbuttons > * {
+  background-color: #000000;
+  color: aliceblue;
+  padding: 5px 10px;
+  border-radius: 5px;
+  text-align: center;
+  cursor: pointer;
+}
+.stopwatchbuttons > * :active {
+  background-color: aliceblue;
+  color: #000000;
+}

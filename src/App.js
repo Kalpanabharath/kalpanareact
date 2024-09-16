@@ -23,6 +23,7 @@ import Appoinment from "./comonents/Appoinment";
 import Moneymanagement from "./comonents/Moneymanagement";
 import Clock from "./comonents/Clock";
 import Digitaltimer from "./comonents/Digitaltimer";
+import Stopwatch from "./comonents/Stopwatch";
 class App extends Component {
   render() {
     return (
@@ -50,6 +51,7 @@ class App extends Component {
         <Moneymanagement />
         <Clock />
         <Digitaltimer />
+        <Stopwatch />
       </div>
     );
   }
