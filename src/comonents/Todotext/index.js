@@ -1,3 +1,5 @@
+import React from "react";
+
 import "./index.css";
 let Todotext = (props) => {
   let { content, onDelete } = props;

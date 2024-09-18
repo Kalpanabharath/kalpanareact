@@ -1,0 +1,25 @@
+.navcontainer {
+  background-color: black;
+  color: antiquewhite;
+  width: 100%;
+  height: fit-content;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.navcontainer ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.navcontainer ul li a {
+  text-decoration: none;
+  color: black;
+  background-color: aliceblue;
+  padding: 5px 10px;
+  border-radius: 20px;
+}
