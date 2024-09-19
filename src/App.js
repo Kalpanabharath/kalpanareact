@@ -28,6 +28,8 @@ import Digitaltimer from "./comonents/Digitaltimer";
 import Stopwatch from "./comonents/Stopwatch";
 import Heder from "./comonents/Header";
 import Notfound from "./comonents/Notfound";
+import BlockList from "./comonents/BlockList";
+import Blockdetailwraper from "./comonents/Blockdetailwraper";
 class App extends Component {
   render() {
     return (
@@ -58,6 +60,8 @@ class App extends Component {
           <Route path="/Clock" element={<Clock />} />
           <Route path="/Digitaltimer" element={<Digitaltimer />} />
           <Route path="/Stopwatch" element={<Stopwatch />} />
+          <Route path="/BlockList" element={<BlockList />} />
+          <Route path="/blocks/:id" element={<Blockdetailwraper />} />
           <Route path="*" element={<Notfound />} />
         </Routes>
       </>

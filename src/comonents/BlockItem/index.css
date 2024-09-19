@@ -1,0 +1,41 @@
+.blockitemcontainer {
+  width: 50%;
+  height: 30vh;
+  display: flex;
+  box-shadow: 1px 1px 4px 0.2px black;
+  padding: 20px;
+  margin: 0px auto;
+  border-radius: 5px;
+}
+.blockitemcontainer > img {
+  width: 50%;
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+}
+.itemscontent {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  gap: 5px;
+}
+.author {
+  display: flex;
+  justify-content: space-around;
+  gap: 20px;
+  align-items: center;
+}
+.author > img {
+  height: 80px;
+  border-radius: 50%;
+}
+.Blockitem {
+  color: inherit;
+  text-decoration: none;
+  width: inherit;
+  width: 100%;
+  height: 30vh;
+  margin-top: 5%;
+}

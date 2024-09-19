@@ -78,6 +78,9 @@ let Heder = () => (
         <li>
           <Link to="/Stopwatch">Stopwatch</Link>
         </li>
+        <li>
+          <Link to="/BlockList">Block List</Link>
+        </li>
       </ul>
     </div>
   </nav>
