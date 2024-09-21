@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/kalpanareact/static/css/main.8b76e9e5.css",
+    "main.js": "/kalpanareact/static/js/main.f25dfe91.js",
+    "static/js/453.e19c4870.chunk.js": "/kalpanareact/static/js/453.e19c4870.chunk.js",
+    "index.html": "/kalpanareact/index.html",
+    "main.8b76e9e5.css.map": "/kalpanareact/static/css/main.8b76e9e5.css.map",
+    "main.f25dfe91.js.map": "/kalpanareact/static/js/main.f25dfe91.js.map",
+    "453.e19c4870.chunk.js.map": "/kalpanareact/static/js/453.e19c4870.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8b76e9e5.css",
+    "static/js/main.f25dfe91.js"
+  ]
+}
