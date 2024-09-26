@@ -1,0 +1,23 @@
+.primeuserpage {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin-top: 50px;
+}
+.Primeusercontainer {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  gap: 10px;
+}
+.primepageloader {
+  margin: 0px auto;
+}
+.prime-user-toggle-buttons button {
+  background-color: black;
+  color: aliceblue;
+  padding: 20px;
+  border: none;
+  outline: none;
+  border-radius: 20px;
+}

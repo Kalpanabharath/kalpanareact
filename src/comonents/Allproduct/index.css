@@ -1,0 +1,18 @@
+.allproductpage {
+  margin: 40px 40px;
+}
+.allproductpage > h2 {
+  margin-bottom: 70px;
+}
+.allproductcontainer {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  justify-content: center;
+}
+.pageloader {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+}

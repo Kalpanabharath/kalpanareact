@@ -1,6 +1,7 @@
 import { Component } from "react";
-import Loader from "react-loader-spinner";
-import "react-loader-spinner/dist/loader/css/react-spinner-loader.css";
+// import { Loader } from "react-loader-spinner";
+import { ColorRing } from "react-loader-spinner";
+// import "react-loader-spinner/dist/loader/css/react-spinner-loader.css";
 import "./index.css";
 import BlockItem from "../BlockItem";
 let BlockData = [
@@ -45,7 +46,7 @@ class BlockList extends Component {
     return (
       <div className="blocklistpage">
         {isLoading ? (
-          <Loader type="TailSpin" color="#00BFFF" height={50} width={50} />
+          <ColorRing type="ColorRing" color="#00BFFF" height={50} width={50} />
         ) : (
           blocksdata.map((obj) => <BlockItem blackData={obj} key={obj.id} />)
         )}

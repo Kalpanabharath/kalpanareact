@@ -1,5 +1,6 @@
 import { Component } from "react";
 import UserDetail from "../UserDetail";
+
 import "./index.css";
 let userarray = [
   {
@@ -47,6 +48,7 @@ class Userlist extends Component {
     let searchResults = userDetailsList.filter((eachitem) =>
       eachitem.name.includes(searchInput)
     );
+
     return (
       <div className="usedetail">
         <h1>User List</h1>
