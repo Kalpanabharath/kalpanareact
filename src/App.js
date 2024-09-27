@@ -37,6 +37,7 @@ import Productedroute from "./comonents/Productedroute";
 import Products from "./comonents/Products";
 import Tirdpartypackage from "./comonents/Tirdpartypackage";
 import Flowchart from "./comonents/Flowchart";
+import Contextext from "./comonents/Contexttext";
 class App extends Component {
   render() {
     return (
@@ -150,6 +151,10 @@ class App extends Component {
           <Route
             path="/Flowchart"
             element={<Productedroute element={Flowchart} />}
+          />
+          <Route
+            path="/Context"
+            element={<Productedroute element={Contextext} />}
           />
           <Route path="*" element={<Notfound />} />
         </Routes>

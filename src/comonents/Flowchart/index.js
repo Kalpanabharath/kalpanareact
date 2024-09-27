@@ -39,12 +39,12 @@ let Flowchart = () => {
   };
 
   return (
-    <div style={{ width: "100%", height: 400 }}>
+    <div style={{ width: "100%", height: 300 }}>
       {" "}
       {/* Added height here */}
       <h2>Flow Chart</h2>
       <ResponsiveContainer>
-        <PieChart>
+        <PieChart width={900} height={900}>
           <Pie
             data={data}
             cx="50%"
