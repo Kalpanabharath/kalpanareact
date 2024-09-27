@@ -1,5 +1,11 @@
 .allproductpage {
-  margin: 40px 40px;
+  width: 98vw;
+  display: flex;
+
+  justify-content: space-between;
+}
+.allproductfullpage {
+  margin-top: 4rem;
 }
 .allproductpage > h2 {
   margin-bottom: 70px;
@@ -9,6 +15,10 @@
   flex-wrap: wrap;
   gap: 40px;
   justify-content: center;
+  width: 80vw;
+}
+.filtercontainer {
+  width: 20vw;
 }
 .pageloader {
   width: 100%;

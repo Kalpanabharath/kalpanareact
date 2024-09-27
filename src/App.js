@@ -35,7 +35,8 @@ import LoginWithNavigate from "./comonents/LoginWithNavigate";
 import Rigistration from "./comonents/Rigistration";
 import Productedroute from "./comonents/Productedroute";
 import Products from "./comonents/Products";
-
+import Tirdpartypackage from "./comonents/Tirdpartypackage";
+import Flowchart from "./comonents/Flowchart";
 class App extends Component {
   render() {
     return (
@@ -141,6 +142,14 @@ class App extends Component {
           <Route
             path="/Products"
             element={<Productedroute element={Products} />}
+          />
+          <Route
+            path="/Tirdpartypackage"
+            element={<Productedroute element={Tirdpartypackage} />}
+          />
+          <Route
+            path="/Flowchart"
+            element={<Productedroute element={Flowchart} />}
           />
           <Route path="*" element={<Notfound />} />
         </Routes>

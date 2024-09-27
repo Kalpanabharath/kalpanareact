@@ -1,0 +1,42 @@
+.allproductfilterpage {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+}
+.serchdiv {
+  width: 80%;
+  background-color: #f1f5f9;
+  height: 3.2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 15px;
+  border-radius: 40px;
+}
+.serchdiv > input {
+  width: 100%;
+  border: none;
+  outline: none;
+  background-color: #f1f5f9;
+}
+.Catogory {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  align-items: flex-start;
+  width: 100%;
+}
+.Catogory > * {
+  width: 80%;
+  padding: 5px;
+  display: block;
+  text-align: left;
+}
+.Catogory > :not(:nth-child(1)) {
+  border-bottom: 2px solid #f1f5f9;
+}
+.Catogory > *:hover {
+  color: #f1f5f9;
+  background-color: black;
+}

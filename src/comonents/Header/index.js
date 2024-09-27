@@ -102,6 +102,12 @@ const Heder = () => {
           <li>
             <Link to="/Products">Products</Link>
           </li>
+          <li>
+            <Link to="/Tirdpartypackage">Tirdpartypackage</Link>
+          </li>
+          <li>
+            <Link to="/Flowchart">Flowchart</Link>
+          </li>
           <button onClick={onClickLogout}> Logout</button>
         </ul>
       </div>
