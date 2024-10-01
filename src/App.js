@@ -38,6 +38,9 @@ import Products from "./comonents/Products";
 import Tirdpartypackage from "./comonents/Tirdpartypackage";
 import Flowchart from "./comonents/Flowchart";
 import Contextext from "./comonents/Contexttext";
+import Timeline from "./comonents/Timeline";
+import Productdetail from "./comonents/Productdetail";
+
 class App extends Component {
   render() {
     return (
@@ -155,6 +158,14 @@ class App extends Component {
           <Route
             path="/Context"
             element={<Productedroute element={Contextext} />}
+          />
+          <Route
+            path="/Timeline"
+            element={<Productedroute element={Timeline} />}
+          />
+          <Route
+            path="/product/:id"
+            element={<Productedroute element={Productdetail} />}
           />
           <Route path="*" element={<Notfound />} />
         </Routes>
