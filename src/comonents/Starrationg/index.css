@@ -1,0 +1,20 @@
+.stars {
+  position: relative;
+  display: inline-block;
+  font-size: 50px; /* Adjust size as needed */
+}
+
+/* Styling for empty stars */
+.empty-stars {
+  color: lightgray; /* Color for empty stars */
+}
+
+/* Styling for filled stars */
+.filled-stars {
+  position: absolute;
+  top: 0;
+  left: 0;
+  /* width: 10%; */
+  overflow: hidden; /* Clip the filled stars if necessary */
+  color: gold; /* Color for filled stars */
+}

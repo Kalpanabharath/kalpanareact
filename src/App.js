@@ -40,6 +40,7 @@ import Flowchart from "./comonents/Flowchart";
 import Contextext from "./comonents/Contexttext";
 import Timeline from "./comonents/Timeline";
 import Productdetail from "./comonents/Productdetail";
+import Starrationg from "./comonents/Starrationg";
 
 class App extends Component {
   render() {
@@ -166,6 +167,10 @@ class App extends Component {
           <Route
             path="/product/:id"
             element={<Productedroute element={Productdetail} />}
+          />
+          <Route
+            path="/starrating"
+            element={<Productedroute element={Starrationg} />}
           />
           <Route path="*" element={<Notfound />} />
         </Routes>
